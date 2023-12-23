@@ -13,6 +13,8 @@
 8. $CREATE USER ichain WITH PASSWORD '//in setting';
 9. $GRANT ALL PRIVILEGES ON DATABASE FTG_DATABASE  TO ichain;
 10. $ALTER USER ichain WITH SUPERUSER
+11. $python manage.py createsuperuser
+12. $python manage.py createsuperuser
 
 ## opening
 1. %psql FTG_DATABASE ichain
